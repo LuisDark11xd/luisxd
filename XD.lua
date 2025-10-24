@@ -6,7 +6,6 @@
 
 -- == [ CARGAR LA LIBRERÍA RAYFIELD ] ==
 -- Este es el paso crucial. Si esto falla, la GUI no aparecerá.
-local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/UI-Libraries/Rayfield/main/Library.lua"))()
 
 if not Rayfield then
     warn("Error: No se pudo cargar la librería Rayfield. Asegúrate de tener una conexión y que Krnl soporte la carga de librerías.")
